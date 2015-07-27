@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A88E961B663C2800826D5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A88E951B663C2800826D5A /* main.m */; };
+		84A88E991B663C2800826D5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A88E981B663C2800826D5A /* AppDelegate.m */; };
+		84A88E9C1B663C2800826D5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A88E9B1B663C2800826D5A /* ViewController.m */; };
+		84A88E9F1B663C2800826D5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A88E9D1B663C2800826D5A /* Main.storyboard */; };
+		84A88EA11B663C2800826D5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A88EA01B663C2800826D5A /* Images.xcassets */; };
+		84A88EA41B663C2800826D5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A88EA21B663C2800826D5A /* LaunchScreen.xib */; };
+		84A88EB01B663C2800826D5A /* _9__UIViewGeomertyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A88EAF1B663C2800826D5A /* _9__UIViewGeomertyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84A88EAA1B663C2800826D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A88E881B663C2700826D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A88E8F1B663C2700826D5A;
+			remoteInfo = "19. UIViewGeomerty";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84A88E901B663C2700826D5A /* 19. UIViewGeomerty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "19. UIViewGeomerty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A88E941B663C2800826D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A88E951B663C2800826D5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84A88E971B663C2800826D5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84A88E981B663C2800826D5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84A88E9A1B663C2800826D5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84A88E9B1B663C2800826D5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84A88E9E1B663C2800826D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84A88EA01B663C2800826D5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84A88EA31B663C2800826D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84A88EA91B663C2800826D5A /* 19. UIViewGeomertyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "19. UIViewGeomertyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A88EAE1B663C2800826D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A88EAF1B663C2800826D5A /* _9__UIViewGeomertyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _9__UIViewGeomertyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A88E8D1B663C2700826D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A88EA61B663C2800826D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A88E871B663C2700826D5A = {
+			isa = PBXGroup;
+			children = (
+				84A88E921B663C2700826D5A /* 19. UIViewGeomerty */,
+				84A88EAC1B663C2800826D5A /* 19. UIViewGeomertyTests */,
+				84A88E911B663C2700826D5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84A88E911B663C2700826D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A88E901B663C2700826D5A /* 19. UIViewGeomerty.app */,
+				84A88EA91B663C2800826D5A /* 19. UIViewGeomertyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A88E921B663C2700826D5A /* 19. UIViewGeomerty */ = {
+			isa = PBXGroup;
+			children = (
+				84A88E971B663C2800826D5A /* AppDelegate.h */,
+				84A88E981B663C2800826D5A /* AppDelegate.m */,
+				84A88E9A1B663C2800826D5A /* ViewController.h */,
+				84A88E9B1B663C2800826D5A /* ViewController.m */,
+				84A88E9D1B663C2800826D5A /* Main.storyboard */,
+				84A88EA01B663C2800826D5A /* Images.xcassets */,
+				84A88EA21B663C2800826D5A /* LaunchScreen.xib */,
+				84A88E931B663C2800826D5A /* Supporting Files */,
+			);
+			path = "19. UIViewGeomerty";
+			sourceTree = "<group>";
+		};
+		84A88E931B663C2800826D5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84A88E941B663C2800826D5A /* Info.plist */,
+				84A88E951B663C2800826D5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84A88EAC1B663C2800826D5A /* 19. UIViewGeomertyTests */ = {
+			isa = PBXGroup;
+			children = (
+				84A88EAF1B663C2800826D5A /* _9__UIViewGeomertyTests.m */,
+				84A88EAD1B663C2800826D5A /* Supporting Files */,
+			);
+			path = "19. UIViewGeomertyTests";
+			sourceTree = "<group>";
+		};
+		84A88EAD1B663C2800826D5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84A88EAE1B663C2800826D5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A88E8F1B663C2700826D5A /* 19. UIViewGeomerty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A88EB31B663C2800826D5A /* Build configuration list for PBXNativeTarget "19. UIViewGeomerty" */;
+			buildPhases = (
+				84A88E8C1B663C2700826D5A /* Sources */,
+				84A88E8D1B663C2700826D5A /* Frameworks */,
+				84A88E8E1B663C2700826D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "19. UIViewGeomerty";
+			productName = "19. UIViewGeomerty";
+			productReference = 84A88E901B663C2700826D5A /* 19. UIViewGeomerty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84A88EA81B663C2800826D5A /* 19. UIViewGeomertyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A88EB61B663C2800826D5A /* Build configuration list for PBXNativeTarget "19. UIViewGeomertyTests" */;
+			buildPhases = (
+				84A88EA51B663C2800826D5A /* Sources */,
+				84A88EA61B663C2800826D5A /* Frameworks */,
+				84A88EA71B663C2800826D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A88EAB1B663C2800826D5A /* PBXTargetDependency */,
+			);
+			name = "19. UIViewGeomertyTests";
+			productName = "19. UIViewGeomertyTests";
+			productReference = 84A88EA91B663C2800826D5A /* 19. UIViewGeomertyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A88E881B663C2700826D5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84A88E8F1B663C2700826D5A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					84A88EA81B663C2800826D5A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 84A88E8F1B663C2700826D5A;
+					};
+				};
+			};
+			buildConfigurationList = 84A88E8B1B663C2700826D5A /* Build configuration list for PBXProject "19. UIViewGeomerty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84A88E871B663C2700826D5A;
+			productRefGroup = 84A88E911B663C2700826D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A88E8F1B663C2700826D5A /* 19. UIViewGeomerty */,
+				84A88EA81B663C2800826D5A /* 19. UIViewGeomertyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A88E8E1B663C2700826D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A88E9F1B663C2800826D5A /* Main.storyboard in Resources */,
+				84A88EA41B663C2800826D5A /* LaunchScreen.xib in Resources */,
+				84A88EA11B663C2800826D5A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A88EA71B663C2800826D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A88E8C1B663C2700826D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A88E9C1B663C2800826D5A /* ViewController.m in Sources */,
+				84A88E991B663C2800826D5A /* AppDelegate.m in Sources */,
+				84A88E961B663C2800826D5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A88EA51B663C2800826D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A88EB01B663C2800826D5A /* _9__UIViewGeomertyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84A88EAB1B663C2800826D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A88E8F1B663C2700826D5A /* 19. UIViewGeomerty */;
+			targetProxy = 84A88EAA1B663C2800826D5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84A88E9D1B663C2800826D5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A88E9E1B663C2800826D5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84A88EA21B663C2800826D5A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A88EA31B663C2800826D5A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A88EB11B663C2800826D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A88EB21B663C2800826D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A88EB41B663C2800826D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "19. UIViewGeomerty/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84A88EB51B663C2800826D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "19. UIViewGeomerty/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84A88EB71B663C2800826D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "19. UIViewGeomertyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/19. UIViewGeomerty.app/19. UIViewGeomerty";
+			};
+			name = Debug;
+		};
+		84A88EB81B663C2800826D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "19. UIViewGeomertyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/19. UIViewGeomerty.app/19. UIViewGeomerty";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A88E8B1B663C2700826D5A /* Build configuration list for PBXProject "19. UIViewGeomerty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A88EB11B663C2800826D5A /* Debug */,
+				84A88EB21B663C2800826D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A88EB31B663C2800826D5A /* Build configuration list for PBXNativeTarget "19. UIViewGeomerty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A88EB41B663C2800826D5A /* Debug */,
+				84A88EB51B663C2800826D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84A88EB61B663C2800826D5A /* Build configuration list for PBXNativeTarget "19. UIViewGeomertyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A88EB71B663C2800826D5A /* Debug */,
+				84A88EB81B663C2800826D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A88E881B663C2700826D5A /* Project object */;
+}
