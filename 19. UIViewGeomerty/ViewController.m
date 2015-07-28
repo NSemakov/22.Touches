@@ -88,7 +88,7 @@
     //end of Master
     
     //Superman
-    CGRect boundsOfView=self.view.bounds;
+    CGRect boundsOfView=self.board.bounds;
     CGFloat widthOfboundsOfView=CGRectGetWidth(boundsOfView);
     CGFloat heightOfboundsOfView=CGRectGetHeight(boundsOfView);
     
@@ -152,7 +152,6 @@
         } else if (view.tag==2) {
             [units addObject:view];
         }
-        NSLog(@"lj");
 
     }
     for (UIView *unit in units){
