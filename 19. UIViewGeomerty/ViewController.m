@@ -9,7 +9,9 @@
 #import "ViewController.h"
 #import <UIKit/UIKit.h>
 @interface ViewController ()
-@property (weak,nonatomic) UIView* board;
+//@property (weak,nonatomic) UIView* board;
+@property (weak, nonatomic) IBOutlet UIView *board;
+
 @end
 
 @implementation ViewController
@@ -90,16 +92,16 @@
     CGFloat widthOfboundsOfView=CGRectGetWidth(boundsOfView);
     CGFloat heightOfboundsOfView=CGRectGetHeight(boundsOfView);
     
-    CGRect board=CGRectMake(0, (heightOfboundsOfView-widthOfboundsOfView)/2, widthOfboundsOfView, widthOfboundsOfView);
+    //CGRect board=CGRectMake(0, (heightOfboundsOfView-widthOfboundsOfView)/2, widthOfboundsOfView, widthOfboundsOfView);
     
     CGFloat sizeOfBoard=MIN(widthOfboundsOfView, heightOfboundsOfView);
     CGFloat sizeOfBlackSquare=MIN(widthOfboundsOfView, heightOfboundsOfView)/8;
-    UIView *boardView=[[UIView alloc]initWithFrame:board];
-    boardView.backgroundColor=[UIColor yellowColor];
-    boardView.autoresizingMask=UIViewAutoresizingFlexibleTopMargin|UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleLeftMargin|
-    UIViewAutoresizingFlexibleRightMargin;
-    self.board=boardView;
-    [self.view addSubview:boardView];
+    //UIView *boardView=[[UIView alloc]initWithFrame:board];
+    //boardView.backgroundColor=[UIColor yellowColor];
+    //boardView.autoresizingMask=UIViewAutoresizingFlexibleTopMargin|UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleLeftMargin|
+    //UIViewAutoresizingFlexibleRightMargin;
+    //self.board=boardView;
+    //[self.view addSubview:boardView];
     CGFloat verticalPosition=0;
     CGFloat horizontalPosition=sizeOfBoard/8;
     
