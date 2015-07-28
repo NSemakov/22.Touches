@@ -152,6 +152,7 @@
         } else if (view.tag==2) {
             [units addObject:view];
         }
+        NSLog(@"lj");
 
     }
     for (UIView *unit in units){
