@@ -88,23 +88,23 @@
     //end of Master
     
     //Superman
-    CGRect boundsOfView=self.board.bounds;
-    CGFloat widthOfboundsOfView=CGRectGetWidth(boundsOfView);
-    CGFloat heightOfboundsOfView=CGRectGetHeight(boundsOfView);
+    //CGRect boundsOfView=self.board.bounds;
+    //CGFloat widthOfboundsOfView=CGRectGetWidth(boundsOfView);
+    //CGFloat heightOfboundsOfView=CGRectGetHeight(boundsOfView);
     
     //CGRect board=CGRectMake(0, (heightOfboundsOfView-widthOfboundsOfView)/2, widthOfboundsOfView, widthOfboundsOfView);
     
-    CGFloat sizeOfBoard=MIN(widthOfboundsOfView, heightOfboundsOfView);
-    CGFloat sizeOfBlackSquare=MIN(widthOfboundsOfView, heightOfboundsOfView)/8;
+    //CGFloat sizeOfBoard=MIN(widthOfboundsOfView, heightOfboundsOfView);
+    //CGFloat sizeOfBlackSquare=MIN(widthOfboundsOfView, heightOfboundsOfView)/8;
     //UIView *boardView=[[UIView alloc]initWithFrame:board];
     //boardView.backgroundColor=[UIColor yellowColor];
     //boardView.autoresizingMask=UIViewAutoresizingFlexibleTopMargin|UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleLeftMargin|
     //UIViewAutoresizingFlexibleRightMargin;
     //self.board=boardView;
     //[self.view addSubview:boardView];
-    CGFloat verticalPosition=0;
-    CGFloat horizontalPosition=sizeOfBoard/8;
-    
+   //CGFloat verticalPosition=0;
+    //CGFloat horizontalPosition=sizeOfBoard/8;
+    /*
     for (NSInteger row=0; row<8; row++) {
         
         for (NSInteger column=1; column<5; column++) {
@@ -132,7 +132,7 @@
         verticalPosition+=sizeOfBlackSquare;
         horizontalPosition=(row%2)*sizeOfBoard/8;
     }
-    
+    */
     
     //--------
     //end of Superman
@@ -146,7 +146,7 @@
     
     NSMutableArray* units=[NSMutableArray new];
     
-    for (UIView * view in self.board.subviews){
+    for (UIView * view in self.collectionViews){
         if (view.tag==1) {
             view.backgroundColor=[UIColor colorWithRed:red green:green blue:blue alpha:0.8];
         } else if (view.tag==2) {
