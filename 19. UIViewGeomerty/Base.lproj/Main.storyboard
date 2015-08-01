@@ -303,6 +303,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="blackCheck" destination="HYL-hd-0Ie" id="UPC-Cx-uev"/>
                         <outlet property="board" destination="yoR-MQ-y2S" id="Qkm-2Y-Z50"/>
                         <outletCollection property="collectionViews" destination="HYL-hd-0Ie" id="fLf-9H-Hcg"/>
                         <outletCollection property="collectionViews" destination="1sX-DV-1nF" id="3xB-ye-fYm"/>

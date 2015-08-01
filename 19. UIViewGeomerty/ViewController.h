@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutletCollection(UIView) NSArray *collectionViews;
+@property (weak, nonatomic, readonly) IBOutlet UIView *blackCheck;
 
 
 @end
